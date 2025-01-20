@@ -9,12 +9,12 @@ Installed MS Visual Studio 2019 Version
 Installed Git Windows Version
 Clone(Download) Source Code by gi
 
-Problem : MSVC 2019 version is not available on QT 6.8.1 even though wiki mentioned MSVC 2019 version with QT6.8.1. 
+Problem : 
+MSVC 2019 version is not available on QT 6.8.1 
+even though wiki mentioned MSVC 2019 version with QT6.8.1. 
 
 Check point to solve problem
 1. folder location for Build
-
- 
 
 [ Daejeon Gwanpyeong-dong Long/Lat Coordinate ]
 The followings are not available for Gazebo not Gazebo classic
@@ -37,10 +37,8 @@ PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_POSE="0,2" PX4_SIM_MODEL=gz_x500 ./build/px4
 PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_POSE="0,2" PX4_SIM_MODEL=gz_x500 ./build/px4_sitl_default/bin/px4 -i 2
 PX4_SYS_AUTOSTART=4001 PX4_GZ_MODEL_POSE="0,2" PX4_SIM_MODEL=gz_x500 PX4_HOME_LAT=36.4345828 PX4_HOME_LON=127.3947277 PX4_HOME_ALT=28.5 ./build/px4_sitl_default/bin/px4 -i 3
 
-
 [ Ref ]
 https://docs.px4.io/main/en/sim_gazebo_gz/
-
 
 
 [ How to use joystick with QgroundControl ]
